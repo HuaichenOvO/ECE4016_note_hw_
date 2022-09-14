@@ -53,43 +53,67 @@ Panlong Wu (吴攀龙): 222010016@link.cuhk.edu.cn
 
 <table bgcolor = NavajoWhite>
 <tr> 
-    <td rowspan="5"> Delay
+    <td rowspan="6"> Delay
 <tr> 
     <td>Transmission Delay 
-    <td>
-    <td rowspan="2">和link本身有关 
+    <td>Time for a packet to move into the link 
+    <td rowspan="2">determined by link only 
 <tr> 
     <td>Propagation Delay 
     <td>Time for one bit to move through the link 
 <tr> 
     <td>Queuing Delay
-    <td rowspan="2">due to to traffic mix and 
-switch internals
+    <td>Time for a packet to stay in a queue/buffer
+    <td>depend on traffic
 <tr> 
     <td>Processing Delay
+    <td>Time for a switch to process a packet (negligible)
+    <td>traffic and switch itself
+<tr>
+    <td>Round Trip Time
+    <td>Time for a packet to go from a source to a destination and to come back
+    <td>RTT/2 equals average end-to-end delay
 
-<tr> 
-    <td>Milk
-    <td> white cold drink
+<tr>
+    <td> Loss
+    <td>What fraction of the packets sent to a destination are dropped?
+    <td>
+    <td>
+
+<tr>    
+    <td rowspan="5"> Throughput
+    <td>At what rate is the destination receiving data from the source?
+    <td> 
+    <td>
+
 </table>
 
 <font color = navy>
-Transmission delay = Packet size / Transmission rate of the link 
+<b>Transmission delay </b>= Packet size / Transmission rate of the link 
 
 $\text{e.g. } TD = {1000 bits} / {(100 Mb/s)} = 10^{-5}s$
 
-Propagation delay= Link length /Propagation speed of link （默认是光速）
+<b> Propagation delay </b>= Link length /Propagation speed of link （默认是光速）
 
 $\text{e.g. } PD = {30 km} / {(3*10^8 km/s)} = 10^{-4}s$
 
-例题：<br>
+例题：
+
+![P2](/pics/L1P1.png)
+
 Link with 1Mbps, 1ms <br>
 Packet delay = Transmission delay + Propagation delay = 
-![P2](/pics/L1P1.png)
 ${30 km} / {(3*10^8 km/s)} = 10^{-4}s$
 
+<b> Propagation delay </b> (no fomula) <br>
+the time that a packet stays in a queue (buffer)
 
+<b> Throughput </b>
+
+例题:<br>
+Link with Transmission rate R bits/s <br>
+File of F bits; Packet of L bits
+
+Transfer time $T = F/R + \text{probagation delay}$ <br>
+Average throughput $R \approx F/T$
 </font>
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
