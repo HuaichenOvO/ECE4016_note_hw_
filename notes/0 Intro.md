@@ -1,7 +1,7 @@
 # <font color = Purple> 0 MD格式 </font>
 
 ## <font color = Purple> 如何跳转到MD的内/外部 </font>
-[第一章](/notes/CPT1.md)<br>
+[Branch: 1 Intro and Overview](/notes/1%20Intro%20and%20Overview.md)<br>
 (目标库名称:子目录名称/目标文档的文件名#章节标题)<br>
 链接目标不允许空格以及某些特殊符号，空格用‘-’替代，中文'。'和英文'.'需要删除。大写字母需要转换为小写字母
 

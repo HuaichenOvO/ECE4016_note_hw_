@@ -1,8 +1,9 @@
 <font color = grey>
 
 # <font color = Purple>1 Intro and Overview</font>
-[上一章](/notes/CPT0.md)
-[下一章](/notes/CPT2.md)
+[Branch: 0 Intro](/notes/0%20Intro.md)
+||
+[Branch: 2 Layering](/notes/2%20Layering.md)
 ## <font color = PaleVioletRed>TA contact</font>
 
 Dayou Zhang (张大猷): 221019044@link.cuhk.edu.cn
@@ -34,6 +35,7 @@ Panlong Wu (吴攀龙): 222010016@link.cuhk.edu.cn
     <td>reliable transport (i.e., how to transfer data over an unreliable network)
 <tr>
     <td>All on (emulated) realistic networks using mininet
+    <td>
 </table>
 
 ## <font color = PaleVioletRed>Two ways to share switched networks </font>
@@ -52,6 +54,11 @@ Panlong Wu (吴攀龙): 222010016@link.cuhk.edu.cn
 ## <font color = PaleVioletRed>Performance metrics </font>
 
 <table bgcolor = NavajoWhite>
+<tr> 
+    <td><b> Category </b>
+    <td><b> Sub-Category </b>
+    <td><b> Definition </b>
+    <td><b> Note </b>
 <tr> 
     <td rowspan="6"> Delay
 <tr> 
@@ -76,8 +83,8 @@ Panlong Wu (吴攀龙): 222010016@link.cuhk.edu.cn
 
 <tr>
     <td> Loss
-    <td>What fraction of the packets sent to a destination are dropped?
     <td>
+    <td>What fraction of the packets sent to a destination are dropped?
     <td>
 
 <tr>    
