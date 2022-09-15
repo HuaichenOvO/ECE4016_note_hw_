@@ -2,7 +2,7 @@
 
 # <font color = Purple>1 Intro and Overview</font>
 [上一章](/notes/CPT0.md)
-[下一章](/notes/CPT0.md)
+[下一章](/notes/CPT2.md)
 ## <font color = PaleVioletRed>TA contact</font>
 
 Dayou Zhang (张大猷): 221019044@link.cuhk.edu.cn
@@ -81,11 +81,14 @@ Panlong Wu (吴攀龙): 222010016@link.cuhk.edu.cn
     <td>
 
 <tr>    
-    <td rowspan="5"> Throughput
+    <td rowspan="3"> Throughput
+    <td> Throughput in a link
     <td>At what rate is the destination receiving data from the source?
     <td> 
-    <td>
-
+<tr>    
+    <td> End-to-End Throughput
+    <td>Same Definition but..
+    <td> min{R1, R2, ... Rn}, 木桶短板效应
 </table>
 
 <font color = navy>
@@ -99,7 +102,8 @@ $\text{e.g. } PD = {30 km} / {(3*10^8 km/s)} = 10^{-4}s$
 
 例题：
 
-![P2](/pics/L1P1.png)
+
+<img src="../pics/L1P1.png" width=600>
 
 Link with 1Mbps, 1ms <br>
 Packet delay = Transmission delay + Propagation delay = 
@@ -116,4 +120,12 @@ File of F bits; Packet of L bits
 
 Transfer time $T = F/R + \text{probagation delay}$ <br>
 Average throughput $R \approx F/T$
+
+<b> End-to-End Throughput </b>
+
+例题:<br>
+$Link_1$ with Transmission rate $R_1$ bits/s <br>
+$Link_2$ with Transmission rate $R_2$ bits/s <br>
+
+Average throughput $R = min\{R_1, R_2\}$
 </font>

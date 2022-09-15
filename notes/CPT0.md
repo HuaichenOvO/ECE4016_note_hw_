@@ -8,7 +8,9 @@
 ## <font color = Purple> 如何引用图片 </font>
 ![P1](https://static.styletc.com/images/cover/29/94629/md-9b2958642621fc80479759bd76bced0c.jpg)
 
-![P2](/pics/L1P1.png)
+或
+
+<img src="../pics/L1P1.png" width=400>
 
 <font color=NavajoWhite> 字体颜色是NavajoWhite</font><br>
 <font color=Feldspar> 字体颜色是Feldspar</font><br>
